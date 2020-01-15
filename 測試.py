@@ -32,7 +32,6 @@ while (cap.isOpened()):
         r = cv2.rectangle(frame, upper_left, bottom_right, (100, 50, 200), 5)
         rect_img = frame[upper_left[1] : bottom_right[1], upper_left[0] : bottom_right[0]]
     
-        sketcher_rect = rect_img
         sketcher_rect = sketch_transform(rect_img)
         
         #Conversion for 3 channels to put back on original image (streaming)
