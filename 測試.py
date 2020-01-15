@@ -45,3 +45,7 @@ while (cap.isOpened()):
         break
 cap.release()
 cv2.destroyAllWindows()
+
+#https://blog.gtwang.org/programming/opencv-motion-detection-and-tracking-tutorial/
+#https://blog.csdn.net/sinat_41104353/article/details/85171185
+#https://blog.csdn.net/keith_bb/article/details/53470170
