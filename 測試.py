@@ -9,8 +9,19 @@ import cv2
 #讀video
 cap = cv2.VideoCapture('C:\\Users\\bbjac\\Git\\opencv\\around.mp4')
 
+#取得第1000幀，並顯示
+cap.set(cv2.CAP_PROP_POS_FRAMES,1000)
+a,b = cap.read()
+cv2.imshow('b',b)
+cv2.waitKey(1000)
+
+#設定ROI框的參數
 upper_left = (280,100)
 bottom_right = (980,600)
+
+#單純想看總FRAME數
+total_frame = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+print(total_frame)
 
 
 #一種filter方式
