@@ -60,3 +60,11 @@ cv2.destroyAllWindows()
 #https://blog.gtwang.org/programming/opencv-motion-detection-and-tracking-tutorial/
 #https://blog.csdn.net/sinat_41104353/article/details/85171185
 #https://blog.csdn.net/keith_bb/article/details/53470170
+
+
+##樹莓派前置作業，作業系統方面可以看一下，試試看。(Ubuntu 可以直接 Yolo)
+#http://korewa72.blogspot.com/2018/08/raspberry-pi-3b.html
+#Alex Darknet Yolo
+#https://github.com/AlexeyAB/darknet
+#pi 3 上跑yolo ubuntu的
+#https://jay16213.github.io/2018-03-28/yolo-on-raspberry/
